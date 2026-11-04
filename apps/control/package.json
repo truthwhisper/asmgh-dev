@@ -1,5 +1,5 @@
 {
-  "name": "@raincloud/control",
+  "name": "@asmgh-dev/control",
   "private": true,
   "type": "module",
   "scripts": {
@@ -14,7 +14,7 @@
     "@asteasolutions/zod-to-openapi": "^8.5.0",
     "@corvu/otp-field": "^0.1.4",
     "@kobalte/core": "^0.13.11",
-    "@raincloud/types": "workspace:*",
+    "@asmgh-dev/types": "workspace:*",
     "@solidjs/meta": "^0.29.4",
     "@solidjs/router": "^0.15.0",
     "@solidjs/start": "1.3.2",
