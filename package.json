@@ -1,20 +1,23 @@
 {
-  "name": "raincloud",
+  "name": "asmgh-dev",
   "private": true,
   "workspaces": [
     "apps/*",
     "packages/*"
   ],
   "scripts": {
-    "dev:control": "bun --elide-lines=0 --filter @raincloud/control dev",
-    "dev:ns": "bun --elide-lines=0 --filter @raincloud/nameserver dev",
-    "db:generate": "bun --filter @raincloud/control db:generate",
-    "db:migrate": "bun --filter @raincloud/control db:migrate"
+    "dev:control": "bun --elide-lines=0 --filter @asmgh-dev/control dev",
+    "dev:ns": "bun --elide-lines=0 --filter @asmgh-dev/nameserver dev",
+    "db:generate": "bun --filter @asmgh-dev/control db:generate",
+    "db:migrate": "bun --filter @asmgh-dev/control db:migrate"
   },
   "devDependencies": {
-    "typescript": "^5.6.0"
+    "typescript": "^5.9.3"
   },
   "dependencies": {
-    "lucide-solid": "^1.16.0"
-  }
+    "lucide-solid": "^1.67.0"
+  },
+  "trustedDependencies": [
+    "@parcel/watcher"
+  ]
 }
